@@ -10,21 +10,16 @@
     
     <p  class="title"> ROCK, PAPER AND SCIRROR </p> 
 
-    <button onclick="
-        PlayGame('rock');
-
-        "class="mov-button" >
+    <button class="mov-button     js-rock-button"  >
         <img src="images/rock-emoji.png" alt="rock img" class="move-icon"> 
     </button>
-    <button onclick="
-        PlayGame('paper');
-        "class="mov-button"> 
+
+
+    <button class=" mov-button  js-paper-button "> 
         <img src="images/paper-emoji.png" alt="paper button"class="move-icon">
     </button>
 
-    <button onclick="
-        PlayGame('scissor');
-            " class="mov-button"> 
+    <button class=" mov-button js-scissor-button"> 
             <img src="images/scissor-emoji.png" alt="scirror button" class="move-icon">
 
         </button>
@@ -34,19 +29,10 @@
         <p class="js-moves">       </p>
 
 
-        <button onclick="           
-        score.wins =0;
-        score.loss =0;
-        score.tie =0;
-        localStorage.removeItem('score');
-        UpdateScore();
-        
-        " class="reset-btn">Reset Score
-        </button>
+    <button class="reset-btn js-reset-button">
+        Reset Score</button>
 
-        <button class="auto-play-button"  onclick="
-        autoplay();
-        "> Auto Play</button>
+    <button class="auto-play-button   js-autoplay-button"  > Auto Play</button>
 
 
 
