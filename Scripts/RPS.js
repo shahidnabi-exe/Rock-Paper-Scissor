@@ -4,15 +4,6 @@
         loss:0,
         tie:0
     };   
-    
-    // if(score===null){
-    //     score={
-    //         wins: 0,
-    //         loss=0,
-    //         tie=
-    //     };
-
-    // } 
 
     UpdateScore();
 
