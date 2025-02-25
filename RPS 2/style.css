@@ -1,0 +1,18 @@
+*{
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#para{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    /* align-items: center; */
+    background-color: green;
+    height: 50px;
+    padding-top: 20px;
+}
