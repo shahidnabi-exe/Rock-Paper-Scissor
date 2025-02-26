@@ -7,9 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="para"> Rock Paper Scirror </p>   
+    <h1 id="para"> Rock Paper Scirror </h1>   
     
-    
+    <div id="choices">
+        <div id="choice">
+            <img src="images/rock-emoji.png" alt="rock image" id="rock">
+        </div>
 
+        <div id="choice">
+            <img src="images/paper-emoji.png" alt="paper image" id="paper">
+        </div>
+
+        <div id="choice">
+            <img src="images/scissor-emoji.png" alt="scissor image" id="scissor">   
+        </div>
+    </div>
+    
+    <div class="score-board"> 
+        <div class="score">
+            <p id="user-score">0 </p>
+            <p>You</p>
+        </div>
+
+        <div class="score"> 
+                <p id="comp-score">0 </p>
+                <p>Comp</p>
+        </div>
+    </div>
+
+    <div id="msg-container">
+        <p id="msg"> Play your Move</p>
+    </div>
+
+
+
+    <script src="app.js"></script>
 </body>
 </html>
